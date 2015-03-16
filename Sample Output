@@ -1,0 +1,56 @@
+// Execution: sudo ./testUpnp
+// There are 3 clients in the network
+
+Client: Addressing request by client 3
+Client: Addressing request by client 2
+Client: Addressing request by client 1
+Router: Assigning Ip address to client 
+Router: Assigning Ip address to client 
+Router: Assigning Ip address to client 
+Client: Ip address received by Client 1 is 192.168.1.4
+Client: Ip address received by Client 3 is 192.168.1.3
+Client: Ip address received by Client 2 is 192.168.1.2
+Client: Discovery packet sent by client 3
+Client: Discovery packet sent by client 2
+Client: Discovery packet sent by client 1
+Router: Multicasting discovery packet to all clients
+Router: Multicasting discovery packet to all clients
+Router: Multicasting discovery packet to all clients
+Client: Service information sent by client 1 : print
+Client: Service information sent by client 1 : print
+Client: Service information sent by client 3 : scan
+Client: Service information sent by client 3 : scan
+Client: Description received by client 3 : print
+Client: Service information sent by client 2 : display
+Client: Service information sent by client 2 : display
+Client: Description received by client 2 : print
+Client: Description received by client 1 : display
+Client: Description received by client 1 : scan
+Client: Description received by client 3 : display
+Client: Description received by client 2 : scan
+Which service do you want Client 3
+1) print
+2) display
+0) No service
+1
+Client: Sending service request from client 3
+Which service do you want Client 2
+1) print
+2) scan
+0) No service
+2
+Client: Sending service request from client 2
+Which service do you want Client 1
+1) display
+2) scan
+0) No service
+0
+Client: Service offered by client 1
+Client: Service offered by client 3
+link report
+8 sent on Router1.output3 -> client3.input (loss rate: 0%))
+8 sent on Router1.output1 -> client1.input (loss rate: 0%))
+4 sent on client1.output -> Router1.input1 (loss rate: 0%))
+5 sent on client2.output -> Router1.input2 (loss rate: 0%))
+7 sent on Router1.output2 -> client2.input (loss rate: 0%))
+5 sent on client3.output -> Router1.input3 (loss rate: 0%))
